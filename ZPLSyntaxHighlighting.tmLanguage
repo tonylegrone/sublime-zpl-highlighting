@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>fileTypes</key>
+  <array>
+    <string>zpl</string>
+  </array>
+  <key>name</key>
+  <string>ZPL</string>
+  <key>patterns</key>
+  <array>
+    <dict>
+      <key>comment</key>
+      <string>flow control operators</string>
+      <key>match</key>
+      <string>(IF|THEN|ELSE|NOT|AND|OR|DO|FOR|WHILE|LOOP|UNTIL|TO|GOTO|GOSUB|SUB|EXIT|END)</string>
+      <key>name</key>
+      <string>keyword.control</string>
+    </dict>
+    <dict>
+      <key>match</key>
+      <string>(?i)(\^.{2})</string>
+      <key>name</key>
+      <string>support.function.construct</string>
+    </dict>
+  </array>
+  <key>scopeName</key>
+  <string>source.iso6983</string>
+</dict>
+</plist>
