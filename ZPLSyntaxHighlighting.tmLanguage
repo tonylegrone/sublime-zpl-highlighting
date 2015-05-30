@@ -14,7 +14,7 @@
       <key>comment</key>
       <string>flow control operators</string>
       <key>match</key>
-      <string>(IF|THEN|ELSE|NOT|AND|OR|DO|FOR|WHILE|LOOP|UNTIL|TO|GOTO|GOSUB|SUB|EXIT|END)</string>
+      <string>\b(IF|THEN|ELSE|NOT|AND|OR|DO|FOR|WHILE|LOOP|UNTIL|TO|GOTO|GOSUB|SUB|EXIT|END)\b</string>
       <key>name</key>
       <string>keyword.control</string>
     </dict>
